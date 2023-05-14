@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: white;
 }
 html{
     scroll-behavior: smooth;
@@ -51,6 +52,7 @@ section .title{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 section .title::before{
     content: "";
@@ -205,7 +207,9 @@ section .title::after{
     background: none;
 }
 /* about section styling */
-
+.about{
+    background-color: #600000;;
+}
 .about .about-content center .right{
     width: 85%;
 }
@@ -240,6 +244,9 @@ section .title::after{
     background: none;
 }
 /* services section styling */
+.skills,.teams, .contact{
+    background-color: #600000;
+}
 .services, .teams{
     color:#fff;
     background: #111;
@@ -295,7 +302,9 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
-
+#experiences{
+    background-color: #600000;
+}
 
 
 .teams .carousel .card{
@@ -387,9 +396,10 @@ section .title::after{
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+    color: #fff;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #fffdfd;
 }
 .contact .right form .fields{
     display: flex;
@@ -431,6 +441,10 @@ section .title::after{
   display: flex;
   align-items: center;
 }
+
+.head{
+    color: white;
+}
 .right form .button-area button{
   color: #fff;
   display: block;
@@ -453,7 +467,7 @@ section .title::after{
 /* footer section styling */
 footer{
     background: #111;
-    padding: 15px 23px;
+    padding: 3px 23px;
     color: #fff;
     text-align: center;
 }
@@ -588,6 +602,11 @@ footer span a:hover{
     }
 }
 
-.head{
-    color:#111
+.field input[type="text"]
+{
+    color: #000;
+}
+.field input[type="textarea"]
+{
+    color: #000;
 }
