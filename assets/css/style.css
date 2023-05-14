@@ -79,9 +79,10 @@ section .title::after{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 25px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    background-color: #111;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -141,7 +142,7 @@ section .title::after{
     color: #fff;
     z-index: 9999;
     font-size: 30px;
-    border-radius: 6px;
+    border-radius: 30px;
     border-bottom-width: 2px;
     cursor: pointer;
     opacity: 0;
@@ -198,7 +199,7 @@ section .title::after{
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
-    border-radius: 6px;
+    border-radius: 30px;
     border: 2px solid rgb(220, 153, 20);
     transition: all 0.3s ease;
 }
@@ -235,7 +236,7 @@ section .title::after{
     font-weight: 500;
     padding: 10px 50px;
     margin-top: 30px;
-    border-radius: 6px;
+    border-radius: 30px;
     border: 2px solid rgb(220, 153, 20);
     transition: all 0.3s ease;
 }
@@ -246,6 +247,7 @@ section .title::after{
 /* services section styling */
 .skills,.teams, .contact{
     background-color: #600000;
+    
 }
 .services, .teams{
     color:#fff;
@@ -260,7 +262,7 @@ section .title::after{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 30px;
     padding: 30px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -309,7 +311,7 @@ section .title::after{
 
 .teams .carousel .card{
     background: #222;
-    border-radius: 6px;
+    border-radius: 30px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
@@ -422,7 +424,7 @@ section .title::after{
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
-    border-radius: 6px;
+    border-radius: 30px;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
@@ -453,7 +455,7 @@ section .title::after{
   outline: none;
   font-size: 18px;
   font-weight: 500;
-  border-radius: 6px;
+  border-radius: 30px;
   cursor: pointer;
   flex-wrap: nowrap;
   background: rgb(220, 153, 20);
@@ -478,6 +480,22 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+.certificates{
+    margin-top:0px;
+}
+
+
+#skill{
+    background-color: #353535;
+    padding:50px;
+    border-radius: 30px;
+    
+}
+#skill:hover{
+    background-color: rgb(220, 153, 20);
+    font-weight: bold;
+}
+
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
